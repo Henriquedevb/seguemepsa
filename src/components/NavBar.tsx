@@ -48,7 +48,7 @@ export function NavBar() {
               </div>
               <img
                 className="flex justify-center flex-col"
-                src="/src/assets/logo-navbar.png"
+                src={logo}
                 width={120}
                 alt="logo do encontro segue-me dizendo somos um batalhão de amor"
               />
