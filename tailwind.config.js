@@ -4,4 +4,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  colors: {
+    "psa-yellow": "#ED9701",
+  },
 };
