@@ -1,6 +1,7 @@
-import logo from "../assets/logo-segueme.png";
 import { List } from "phosphor-react";
 import { useState } from "react";
+import logo from "../assets/logo-segueme.png";
+import logoMenu from "../assets/logo-navbar.png";
 
 export function NavBar() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -48,7 +49,7 @@ export function NavBar() {
               </div>
               <img
                 className="flex justify-center flex-col"
-                src={logo}
+                src={logoMenu}
                 width={120}
                 alt="logo do encontro segue-me dizendo somos um batalhão de amor"
               />
