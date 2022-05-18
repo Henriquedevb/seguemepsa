@@ -1,8 +1,15 @@
 import { Heart } from "phosphor-react";
 
-export function Card() {
+interface ICardProps {
+  maxWidth: string;
+  maxHeight: string;
+}
+
+export function Card({ maxWidth, maxHeight }: ICardProps) {
   return (
-    <div className="max-w-[300px] p-3 flex flex-col gap-8 border-2 rounded ">
+    <div
+      className={`max-w-[${maxWidth}px] max-h-[${maxHeight}] p-3 flex flex-col gap-8 border-2 rounded`}
+    >
       <h3>Equipe da faxina</h3>
 
       <img
